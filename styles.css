@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    
+}
+nav{
+    flex: 10;
+    text-align: right;
+}
+
+nav ul a li{
+    display: inline-block;
+    margin-right:15px ;
+}
+nav ul a{
+    display: inline-block;
+    list-style-type: none;
+}
+.banner {
+    position: relative;
+    
+    
+}
+.bannertext {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: black;
+    font-size: 50px;
+    
+}
+.button1{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color:rgb(0, 133, 249) ;
+    border-radius: 40px;
+    padding: 5px 30px;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+.button1:hover{
+    background-color: rgb(0, 27, 122);
+}
+.name{
+    text-align: center;
+    margin: 0 auto 70px;
+    position: realtive;
+    line-height: 50px;
+    color: black;
+    background-color: rgb(134, 238, 254);
+}
+.small-container{
+    max-width: 1500px;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 15px;
+    min-width: 200px;
+    margin-bottom: 45px;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 100%;
+
+}
+.banner2 {
+    position: relative;
+    
+    
+}
+.bannertext2 {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    color: rgb(16, 1, 72);
+    font-size: 50px;
+    
+}
+.button2{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color:rgb(27, 19, 177) ;
+    border-radius: 40px;
+    padding: 5px 30px;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+.button2:hover{
+    background-color: rgb(3, 12, 66);
+}
+.footer{
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+    font-size: 14px;
+    padding: 60px 0 20px;
+
+}
+.footer p{
+    color: aliceblue;
+
+}
+.footer h3{
+    color: azure;
+    margin-bottom: 10px;
+ 
+}
+.footer-col-2{
+    min-width: 270px;
+    margin-bottom: 25px;
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width:150px;
+    margin-bottom: 15px;
+}
+.footer-col-3{
+    min-width: 270px;
+    margin-bottom: 25px;
+    flex-basis: 12%;
+    text-align: center;
+   
+}
+.footer-col-4{
+    
+    margin-bottom: 25px;
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer ul{
+    list-style-type: none;
+    
+}
+.footer ul a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
